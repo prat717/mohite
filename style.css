@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Thin.ttf);
+    font-weight: 300;
+}
+
+
+:root{
+    --primary-color: rgb(134, 0, 0);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    
+}
+h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+
+
+
+p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+}
+
+*{
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    width: 1300px;
+    margin-inline: auto;
+}
+
+ul{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 20px;
+    height: 100%;
+    
+}
+
+
+.nav-ul{
+    width: 70%;
+
+}
+
+
+.nav-ul a{
+    height: 100%;
+    padding: 1.6em 1em 1.5em 1em;
+}
+.nav-ul a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+
+a{
+    text-decoration: none;
+    align-self: center;
+    font-size: 1.1rem;
+}
+
+button{
+    background-color: black;
+    border: 3px solid rgb(134, 0, 0);
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    transition: all 0.3s;
+}
+.primary-button{
+    background-color: rgb(134, 0, 0);
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    transition: all 0.3s;
+}
+.primary-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.flex{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav.flex{
+    
+    justify-content: space-between;
+}
+
+nav{
+    
+    height: 8vh;
+    
+}
+
+.nav-container{
+    margin-inline: auto;
+    padding-inline: 20px;
+
+}
+
+.nav-btn{
+    
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.hero-sec{
+    height: 92vh;
+}
+
+.hero-sec .text{
+    width:60% ;
+    gap: 40px;
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-sec .text p{
+    line-height: 50px;   
+}
+
+
+/* sec2 */
+
+.sec2{
+    flex-direction: column;
+    padding: 128px 0;
+}
+
+.sec2 .lower{
+    margin-top: 60px;
+    height: 1900px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.sec2 .lower .left{
+    width: 50%;
+    padding-right: 30px;
+}
+
+.sec2 .lower  img{
+    width: 70%;
+}
+.sec2 .lower .div1 .right{
+    justify-content: flex-end;
+}
+.sec2 .lower .div2{
+    flex-direction: row-reverse;
+}
+
+.sec2 .lower .div2 .right{
+    justify-content: start;
+}
+
+.sec2 .lower .div2 .left{
+    justify-content: flex-end;
+}
+
+/* sec3 */
+
+.sec3{
+    padding: 128px 0;
+}
+.sec3 .text{
+    flex-direction: column;
+    gap: 40px;
+    width:80%;
+}
+
+.sec3 .text p{
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer{
+    height: 440px;
+    padding: 0 24px 40px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footdiv{
+    padding: 40px 0 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.footdiv .foot-link, .footdiv div h5{
+    width: 100%;
+    
+}
+
+.footdiv .foot-link{
+    margin-bottom: 10px;
+}
+
+.footdiv div{
+    width: 30%;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.footer .contact{
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.footer .contact div{
+    width: 100%;
+}
+
+.footdiv a{
+    font-size: 1rem;
+    opacity: 0.5;
+    transition:all 0.3s;
+}
+.footdiv a:hover{
+    font-size: 1rem;
+    opacity: 100%;
+    border-bottom: 2px solid var(--primary-color);
+    transition-timing-function: ease;
+}
+
+.footer .copywrite{
+    font-size: 1rem;
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+}
