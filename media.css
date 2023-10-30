@@ -1,0 +1,119 @@
+@media screen and (max-width: 426px) {
+    h1 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        
+    }
+    h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        
+    }
+    
+    
+    
+    p {
+        font-weight: 300;
+        font-size: 1.2rem;
+
+    }
+    
+    .hero-sec{
+        height: 92vh;
+    }
+    
+    .hero-sec .text{
+        width:100% ;
+        gap: 5%;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-sec .text p{
+        line-height:1.6 ;   
+    }
+    
+    .nav-ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding-inline: 20px;
+    }
+
+    .sec2 h1{
+        text-align: center;
+    }
+
+    .sec2 .flex{
+        flex-direction: column;
+    }
+    .sec2 .lower .left{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .sec2 .lower .div1 .right{
+        margin-top: 40px;
+    }
+
+    .sec2 .lower .div2{
+        flex-direction: column;
+    }
+
+    .sec2 .lower .div2 .right{
+        margin-top: 40px;
+    }
+
+    .sec2 .lower .div3 .right{
+        margin: 40px;
+    }
+
+    .sec2 .lower .flex{
+        margin-bottom: 40px;
+    }
+
+    .sec3 .text{
+        width: 100%;
+       text-align: center;
+    }
+
+    .sec3{
+        padding-inline: 20px;
+        
+    }
+
+    .footer{
+        padding-top: 20%;
+    }
+
+    .footer .footdiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footdiv .contact-div, .footdiv div{
+       
+    }
+}
