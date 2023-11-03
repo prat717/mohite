@@ -1,6 +1,6 @@
 @media screen and (max-width: 426px) {
     h1 {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 2.5rem;
         line-height: 3rem;
     }
@@ -35,7 +35,7 @@
     }
     
     .hero-sec{
-        height: 100%;
+        /* height: 100%; */
     }
     
     .hero-sec .text{
@@ -61,12 +61,13 @@
     }
     .container{
         width: 100%;
-        padding-inline: 20px;
+        padding-inline: 5%;
     }
 
     .sec2 h1{
         text-align: center;
     }
+ 
 
     .sec2 .flex{
         flex-direction: column;
@@ -75,10 +76,18 @@
         width: 100%;
         text-align: center;
         padding: 0;
-        margin-top: 40px;
+    
     }
 
-    .sec2 .lower .div1 .right{
+    .sec2 .div1, .sec2 .div2, .sec2 .div3{
+        flex-direction: column !important; 
+    }
+
+    .sec2 img{
+        display: none;
+    }
+
+    /* .sec2 .lower .div1 .right{
         margin-top: 40px;
     }
 
@@ -87,16 +96,20 @@
     }
 
     .sec2 .lower .div2 .right{
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .sec2 .lower .div3 .right{
-        margin: 40px;
+        margin: 20px;
+    } */
+
+    .sec2 .lower  .right img{
+        width: 100%;
     }
 
-    .sec2 .lower .flex{
+    /* .sec2 .lower .flex{
         margin-bottom: 40px;
-    }
+    } */
 
     .sec3 .text{
         width: 100%;
@@ -109,6 +122,8 @@
         padding-bottom: 0%;
     }
 
+ 
+
     .footer{
         padding-top: 20%;
     }
@@ -120,3 +135,28 @@
 
 
 }
+
+/* Laptop 1024px */
+
+@media screen and (max-width: 1024px) {
+    
+    .hero-sec .text{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding-inline: 10%;
+    }
+
+    .sec2 .lower  .right{
+        width: 40%;
+    }
+    .sec2 .lower  .right img{
+        width: 100%;
+    }
+
+    
+}
+
+
+/* tablet 768px */

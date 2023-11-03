@@ -34,7 +34,7 @@
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 3rem;
 }
 
@@ -44,8 +44,8 @@ h2 {
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 2.5rem;
 }
 
 h4 {
@@ -63,7 +63,7 @@ h5 {
 
 p {
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     
 }
 
@@ -76,7 +76,9 @@ p {
 }
 
 .container{
-    width: 1300px;
+    width: 1080px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     margin-inline: auto;
 }
 
@@ -149,7 +151,7 @@ button:hover{
     display: flex;
 }
 
-nav.flex{
+nav .flex{
     
     justify-content: space-between;
 }
@@ -163,7 +165,7 @@ nav{
 .nav-container{
     margin-inline: auto;
     padding-inline: 20px;
-
+    border-bottom: 1px solid white;
 }
 
 .nav-btn{
@@ -172,19 +174,19 @@ nav{
 }
 
 .hero-sec{
-    height: 92vh;
+    /* height: 92vh; */
 }
 
 .hero-sec .text{
-    width:60% ;
-    gap: 40px;
+    width:100% ;
+    gap: 5vh;
     height: 70%;
     flex-direction: column;
     text-align: center;
 }
 
 .hero-sec .text p{
-    line-height: 50px;   
+    line-height: 2rem;   
 }
 
 
@@ -200,6 +202,7 @@ nav{
     /* height: 1900px; */
     flex-direction: column;
     justify-content: space-between;
+    grid-row-gap: 7rem;
     
 }
 .sec2 .lower .left{
@@ -207,10 +210,19 @@ nav{
     padding-right: 30px;
 }
 
-.sec2 .lower  img{
-    width: 70%;
+.sec2 .lower .sec2-div{
+    justify-content: space-between !important;
 }
-.sec2 .lower .div1 .right{
+.sec2 .lower .sec2-div .right{
+    width: 50%;
+}
+
+
+.sec2 .lower  img{
+    width: 100%;
+    border: 2px solid white;
+}
+.sec2 .lower .div1 {
     justify-content: flex-end;
 }
 .sec2 .lower .div2{
@@ -223,11 +235,13 @@ nav{
 
 .sec2 .lower .div2 .left{
     justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 0;
 }
 
-.sec2 .lower .div2, .sec2 .lower .div3{
+/* .sec2 .lower .div2, .sec2 .lower .div3{
     margin-top: 80px;
-}
+} */
 /* sec3 */
 
 .sec3{
