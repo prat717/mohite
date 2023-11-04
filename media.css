@@ -1,0 +1,162 @@
+@media screen and (max-width: 426px) {
+    h1 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    
+    h2 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        
+    }
+    h5 {
+        font-weight: 600;
+        font-size: 1rem;
+        
+    }
+    
+    
+    
+    p {
+        font-weight: 300;
+        font-size: 1.2rem;
+
+    }
+    
+    .hero-sec{
+        /* height: 100%; */
+    }
+    
+    .hero-sec .text{
+        width:100% ;
+        gap: 20px;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    
+
+    .hero-sec .text p{
+        line-height:1.6 ;   
+    }
+    
+    .nav-ul{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        padding-inline: 5%;
+    }
+
+    .sec2 h1{
+        text-align: center;
+    }
+ 
+
+    .sec2 .flex{
+        flex-direction: column;
+    }
+    .sec2 .lower .left{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    
+    }
+
+    .sec2 .div1, .sec2 .div2, .sec2 .div3{
+        flex-direction: column !important; 
+    }
+
+    .sec2 img{
+        display: none;
+    }
+
+    /* .sec2 .lower .div1 .right{
+        margin-top: 40px;
+    }
+
+    .sec2 .lower .div2{
+        flex-direction: column;
+    }
+
+    .sec2 .lower .div2 .right{
+        margin-top: 20px;
+    }
+
+    .sec2 .lower .div3 .right{
+        margin: 20px;
+    } */
+
+    .sec2 .lower  .right img{
+        width: 100%;
+    }
+
+    /* .sec2 .lower .flex{
+        margin-bottom: 40px;
+    } */
+
+    .sec3 .text{
+        width: 100%;
+       text-align: center;
+    }
+
+    .sec3{
+        padding-inline: 20px;
+    }
+
+ 
+
+    .footer{
+        padding-top: 20%;
+    }
+
+    .footer .footdiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+
+
+/* Laptop 1024px */
+
+@media screen and (max-width: 1024px) {
+    
+    .hero-sec .text{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding-inline: 10%;
+    }
+
+    .sec2 .lower  .right{
+        width: 40%;
+    }
+    .sec2 .lower  .right img{
+        width: 100%;
+    }
+
+    
+}
+
+
+/* tablet 768px *
