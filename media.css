@@ -183,13 +183,20 @@
 }
 
 
-/* tablet 768px *
+/* tablet 768px */
+
+@media screen and(max-width: 768px) {
+    .container{
+        width: 100%;
+        padding-inline: 10px !important;
+    }
+}
 
 
 /* min 1440 */
 
 @media screen and (min-width: 1440px) {
     .sec2 .lower  .right{
-        width: 50%;
-    }
+    width: 50%;
+}
 }
