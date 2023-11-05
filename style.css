@@ -211,21 +211,18 @@ nav{
     padding-right: 30px;
 }
 
-.sec2 .lower .sec2-div{
-    justify-content: space-between !important;
-}
 .sec2 .lower .sec2-div .right{
     width: 50%;
 }
 
-
+.sec2 .lower .flex{
+    justify-content: space-between;
+}
 .sec2 .lower  img{
     width: 100%;
     border: 2px solid white;
 }
-.sec2 .lower .div1 {
-    justify-content: flex-end;
-}
+
 .sec2 .lower .div2{
     flex-direction: row-reverse;
 }
