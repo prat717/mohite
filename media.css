@@ -11,13 +11,13 @@
     }
     
     h3 {
-        font-weight: 700;
+        font-weight: 500;
         font-size: 1.5rem;
     }
     
     h4 {
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1rem;
         
     }
     h5 {
@@ -25,12 +25,39 @@
         font-size: 1rem;
         
     }
+
+    button{
+        background-color: black;
+        border: 3px solid rgb(134, 0, 0);
+        font-size: 1rem;
+        padding: 5px 15px;
+        transition: all 0.3s;
+    }
+    .primary-button{
+        background-color: rgb(134, 0, 0);
+        font-size: 1rem;
+        padding: 5px 15px;
+        transition: all 0.3s;
+    }
+    .primary-button:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        transition-timing-function: ease;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        background-color: black;
+        border: 3px solid rgb(255, 255, 255);
+        transition-timing-function: ease;
+        cursor: pointer;
+    }
     
     
     
     p {
         font-weight: 300;
-        font-size: 1.2rem;
+        font-size: 1rem;
 
     }
     
@@ -61,7 +88,7 @@
     }
     .container{
         width: 100%;
-        padding-inline: 5%;
+        padding-inline: 10px !important;
     }
 
     .sec2 h1{
@@ -75,7 +102,7 @@
     .sec2 .lower .left{
         width: 100%;
         text-align: center;
-        padding: 0;
+        padding: 0 !important;
     
     }
 
