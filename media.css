@@ -184,3 +184,12 @@
 
 
 /* tablet 768px *
+
+
+/* min 1440 */
+
+@media screen and (min-width: 1440px) {
+    .sec2 .lower  .right{
+        width: 50%;
+    }
+}
