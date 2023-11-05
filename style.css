@@ -209,11 +209,18 @@ nav{
 .sec2 .lower .left{
     width: 50%;
     padding-right: 30px;
+    align-items: flex-start;
 }
 
-.sec2 .lower .sec2-div .right{
+.sec2 .right.flex{
+    
+    align-items: flex-start;
+}
+.sec2 .lower  .right{
     width: 50%;
 }
+
+
 
 .sec2 .lower .flex{
     justify-content: space-between;
@@ -221,6 +228,7 @@ nav{
 .sec2 .lower  img{
     width: 100%;
     border: 2px solid white;
+    align-items: flex-start;
 }
 
 .sec2 .lower .div2{
