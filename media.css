@@ -88,7 +88,7 @@
     }
     .container{
         width: 100%;
-        padding-inline: 10px !important;
+        padding-inline: 10px;
     }
 
     .sec2 h1{
@@ -167,10 +167,12 @@
     .hero-sec .text{
         width: 100%;
     }
-    .container{
-        width: 100%;
-        padding-inline: 10%;
-    }
+
+   .container{
+    width: 100%;
+    padding-inline: 10%;
+   }
+    
 
     .sec2 .lower  .right{
         width: 50%;
@@ -185,11 +187,13 @@
 
 /* tablet 768px */
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container{
         width: 100%;
-        padding-inline: 10px !important;
+        padding-inline: 20px;
     }
+    
+    
 }
 
 

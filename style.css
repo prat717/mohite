@@ -176,6 +176,7 @@ nav{
 
 .nav-container img{
     width: 110px;
+    opacity: 70%;
 }
 
 
@@ -245,6 +246,10 @@ nav{
     padding-right: 0;
 }
 
+.sec2 .div1, .sec2 .div2, .sec2 .div3{
+    align-items: flex-start;
+}
+
 /* .sec2 .lower .div2, .sec2 .lower .div3{
     margin-top: 80px;
 } */
@@ -253,7 +258,7 @@ nav{
 .sec3 .text{
     flex-direction: column;
     gap: 40px;
-    width:80%;
+    width:100%;
 }
 
 .sec3 .text p{
