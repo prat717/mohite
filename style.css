@@ -123,24 +123,25 @@ a{
 button{
     background-color: black;
     border: 3px solid rgb(134, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 5px 15px;
     transition: all 0.3s;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .primary-button{
     background-color: rgb(134, 0, 0);
-    font-size: 1.2rem;
-    padding: 5px 15px;
+    font-size: 1rem;
+    padding: 8px 15px;
     transition: all 0.3s;
-    text-transform: capitalize;
+    text-transform:uppercase;
 }
+
 .primary-button:hover{
     background-color: rgb(255, 255, 255);
     color: black;
     transition-timing-function: ease;
     cursor: pointer;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 button:hover{
@@ -148,7 +149,7 @@ button:hover{
     border: 3px solid rgb(255, 255, 255);
     transition-timing-function: ease;
     cursor: pointer;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .flex{
