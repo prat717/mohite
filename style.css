@@ -125,18 +125,21 @@ button{
     font-size: 1.2rem;
     padding: 5px 15px;
     transition: all 0.3s;
+    text-transform: capitalize;
 }
 .primary-button{
     background-color: rgb(134, 0, 0);
     font-size: 1.2rem;
     padding: 5px 15px;
     transition: all 0.3s;
+    text-transform: capitalize;
 }
 .primary-button:hover{
     background-color: rgb(255, 255, 255);
     color: black;
     transition-timing-function: ease;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 button:hover{
@@ -144,6 +147,7 @@ button:hover{
     border: 3px solid rgb(255, 255, 255);
     transition-timing-function: ease;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .flex{
