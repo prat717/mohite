@@ -1,4 +1,4 @@
 # mohite
 stock website
 
-Made effectively for making payment processing for stock call subsciption
+Effectively made this site for the branding of 'Mohite Trading', and also for making payment processing for the stock call subsrciptions.
