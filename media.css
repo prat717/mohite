@@ -91,6 +91,18 @@
         padding-inline: 10px;
     }
 
+    .sec2 .div1 .left{
+        align-items: center;
+    }
+
+    .sec2 .div2 .left{
+        align-items: center;
+    }
+
+    .sec2 .div3 .left{
+        align-items: center;
+    }
+
     .sec2 h1{
         text-align: center;
     }
@@ -144,7 +156,9 @@
         padding-inline: 20px;
     }
 
- 
+    .sec4 .div1{
+        align-items: center;
+    }
 
     .footer{
         padding-top: 20%;

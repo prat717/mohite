@@ -311,6 +311,22 @@ nav {
     margin-bottom: 5rem;
 }
 
+.sec4 .div2 .para{
+    align-items: center;
+    text-align: center;
+}
+
+.sec4 p{
+    text-align: center;
+}
+.sec4 .div1 .para{
+    gap: 15px;
+}
+
+.sec4 .div2 .para{
+    gap: 15px;
+}
+
 
 
 /* footer */
