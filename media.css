@@ -89,6 +89,7 @@
     .container{
         width: 100%;
         padding-inline: 10px;
+        padding-top: 100px !important;
     }
 
     .sec2 .div1 .left{
